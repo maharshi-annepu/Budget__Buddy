@@ -12,7 +12,7 @@ const dashboardRoutes = require("./routes/dashboardRoutes");
 
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "https://budget-buddy-t2no.vercel.app",
+    origin: process.env.CLIENT_URL,
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
