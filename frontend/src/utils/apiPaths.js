@@ -1,4 +1,4 @@
-export const BASE_URL = "https://budget-buddy-3bck.onrender.com";
+export const BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 // utils/apiPaths.js
 export const API_PATHS = {
